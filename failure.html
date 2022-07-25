@@ -17,10 +17,20 @@
         position: absolute;
         right: 62px;
      }
+
+     @media screen and (max-width: 1077px) {
+      .alert-success {
+    width: 53%;
+    height: 188px;
+    margin: 47px 62px;
+    position: relative;
+}
+ }
  </style>   
     
 </head>
 <body>
+   <div class="container-fluid">
     <div class="alert alert-success" role="alert">
         <h4 class="alert-heading">Not Good!</h4>
         <p>Oh no, Your signup is Failed. Please try again </p>
@@ -28,6 +38,7 @@
         <form action="/failure" method="post">
         <button type="submit" class="btn btn-warning">Try Again</button>
          </form>
+      </div>
       </div>
 </body>
 </html>
