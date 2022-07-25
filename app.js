@@ -42,7 +42,7 @@ app.post("/",(req,res)=>{
        
      const options = {
         method : "POST",
-        auth : "vipin1:vdf859f613ff77fa96900546bbb1f6ad4-us12"
+        auth : "vipin1:df859f613ff77fa96900546bbb1f6ad4-us12"
      }
    const request = https.request(url ,options, function(response){
             
